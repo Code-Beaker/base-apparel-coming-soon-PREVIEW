@@ -145,7 +145,7 @@ main {
   }
 
   .container__text-content {
-    padding: 2rem;
+    padding: 1rem;
   }
 
   .heading,
@@ -171,7 +171,14 @@ main {
   }
 
   .form__input {
-    padding: 0.25rem 0.5rem;
+    padding: 0.5rem;
+    max-width: 12.5rem;
+    font-size: var(--step-0);
+    display: inline-block;
+  }
+
+  .emailError__icon {
+    max-width: 1.5rem;
   }
 
   .logo {
@@ -183,5 +190,9 @@ main {
 
   .hero__image {
     max-height: auto;
+  }
+
+  .form__submit img {
+    max-width: 0.5rem;
   }
 }
