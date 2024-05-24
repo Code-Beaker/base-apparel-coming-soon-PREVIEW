@@ -164,6 +164,7 @@ main {
   .form__flex {
     padding: 0.25rem;
     gap: 0.5rem;
+    width: 100%;
   }
 
   .form__submit {
