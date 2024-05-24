@@ -123,6 +123,10 @@ main {
   transition: 0.2s ease;
 }
 
+.form__submit img {
+  display: block;
+}
+
 .form__submit:hover {
   opacity: 0.75;
   box-shadow: 0.5rem 0.5rem 1rem rgba(0, 0, 0, 0.25);
