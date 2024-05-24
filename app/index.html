@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <title>Frontend Mentor | Base Apparel coming soon page</title>
+    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main>
+      <a href="index.html" class="logo">
+        <img src="assets/images/logo.svg" alt="" />
+      </a>
+      <div class="container-cols">
+        <section class="container__text-content">
+          <h1 class="heading">
+            We're<span class="text-bold"> coming soon</span>
+          </h1>
+          <p class="text">
+            Hello fellow shoppers! We're currently building our new fashion
+            store. Add your email below to stay up-to-date with announcements
+            and our launch deals.
+          </p>
+          <form action="index.html" id="form" class="form" novalidate>
+            <label for="emailInput" class="form__label"
+              >Enter your Email:</label
+            >
+            <div class="form__flex">
+              <input
+                placeholder="company@example.com"
+                type="email"
+                class="form__input"
+                id="emailInput"
+              />
+              <span class="emailError">
+                <img
+                  class="emailError__icon"
+                  src="assets/images/icon-error.svg"
+                  alt=""
+                />
+              </span>
+              <button class="form__submit" type="submit">
+                <img src="assets/images/icon-arrow.svg" alt="" />
+              </button>
+            </div>
+            <span class="errorMessage">Please provide a valid email</span>
+          </form>
+        </section>
+        <section class="container__image-content">
+          <picture>
+            <source
+              media="(min-width: 50rem)"
+              srcset="assets/images/hero-desktop.jpg"
+            />
+            <img
+              class="hero__image container__image"
+              src="assets/images/hero-mobile.jpg"
+              alt=""
+            />
+          </picture>
+        </section>
+      </div>
+    </main>
+    <script type="module" src="main.js"></script>
+  </body>
+</html>
