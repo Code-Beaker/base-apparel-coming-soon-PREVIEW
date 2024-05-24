@@ -172,7 +172,7 @@ main {
 
   .form__input {
     padding: 0.5rem;
-    max-width: 12.5rem;
+    max-width: 15rem;
     font-size: var(--step-0);
     display: inline-block;
   }
